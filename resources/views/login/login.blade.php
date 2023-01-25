@@ -18,7 +18,7 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<!-- NavBar-->
 <nav id="menu" class="navbar navbar-default navbar-fixed-top">
     <div class="container"> 
         <div class="navbar-header">
@@ -37,8 +37,45 @@
     </div>
 </nav>
 
+<header id="header">
+    <div class="intro">
+        <div class="container">
+            <div class="row">
+            <div class="intro-text">
+            <h1>Purificadora La Inmaculada</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>|
 
+<main>
+    <form action="validate.php" method="POST">
+        <div class="imgcontainer">
+            <img src="img/user.jpg" alt="User" class="user" width="200" height="200">
+        </div>
 
+        <div class="container">
+            <label><b>Usuario</b></label>
+            <input type="text" placeholder="Ingresa Usuario" name="username" required>
+
+            <label><b>Contraseña</b></label>
+            <input type="password" placeholder="Ingresa Contraseña" name="password" required>
+
+            <button type="submit" name="submit">Acceder</button>
+            <input type="checkbox" checked="checked"> Recuerdame
+            <br><a href="RegisterNew.html">registrarse</a>
+        </div>
+    </form>
+</main>
+
+<div id="footer">
+    <div class="container text-center">
+        <div class="fnav">
+            <p>Copyright &copy; 2022 La Inmaculada Purificadora. Desarollado por <a href="" rel="nofollow">IguanoSolutions</a>.</p>
+        </div>
+    </div>
+</div>
 <!-- Querys -->
 <script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
     <script type="text/javascript" src="js/bootstrap.js"></script> 
