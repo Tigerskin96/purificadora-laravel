@@ -87,9 +87,9 @@
         <li>
           <ol class="type">
             <li><a href="#" data-filter="*" class="active">Todos los productos</a></li>
-            <li><a href="#" data-filter=".web">Tequilas</a></li>
-            <li><a href="#" data-filter=".photography">Whisky</a></li>
-            <li><a href="#" data-filter=".product">Cerveza</a></li>
+            <li><a href="#" data-filter=".web">categoria 1</a></li>
+            <li><a href="#" data-filter=".photography">categoria 2</a></li>
+            <li><a href="#" data-filter=".product">categoria 3</a></li>
           </ol>
         </li>
       </ul>
